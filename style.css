@@ -1,0 +1,176 @@
+header {
+  position: fixed;
+   overflow: hidden;
+   display: block;
+   background-color: #ffffff;
+   margin-top: -90px;
+}
+
+ 
+
+ 
+.content {
+    font-style: italic;
+    width: 40%;
+    margin-top: 60px; 
+    margin-left: 10px;
+}
+
+.logo img {
+  margin-top: 0px;
+ margin-bottom: 0px;
+  margin-left:70px;
+width: 10%;}
+
+h1 {
+	font-size: 40pt;
+  margin-left: 150px;
+
+ margin-top: -90px;
+
+ text-shadow: # -1px -1px 0, 
+                 # 1px 1px 0;
+}
+
+nav  {
+display: flex;
+ justify-content:center;
+	margin-top: -100px;
+  margin-left: 50%;
+  margin-bottom: 10pt;
+  background-color: red;
+  position: fixed;
+
+
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 20px; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:22px; /*делаем отступ сверху*/
+}
+.menu a {
+  
+	font-size: 20pt;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  
+  color:black; /*меняем цвет ссылок*/
+   /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  margin: 20pt;
+
+}
+a:hover {
+  background:yellow;/*добавляем эффект при наведении*/
+}
+
+
+main {
+  margin-top: 100px;
+
+
+}
+
+h2 {font-size: 20pt;
+ display: flex; 
+ justify-content: center;
+	
+	background-color: #;
+  color: #;
+	}
+
+.info {
+background-color: #;
+border-top: -50px;
+}
+.example img { 
+	width: 5%;
+
+
+}
+
+.example span {
+
+  font-size: 11pt;
+
+}
+.example {
+background-color: #;
+
+
+
+	}
+
+	.slider {
+	border-radius: 20px;
+	
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+;
+}
+
+.events {display: flex;
+	flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #757e6c;
+
+}
+.slaids{ display: none;
+	width: 50%;
+	height: 50%;
+	flex-wrap: wrap;
+}
+
+
+
+
+input#slaid1:checked~.slaid1,
+ input#slaid2:checked~.slaid2,
+  input#slaid3:checked~.slaid3,
+   input#slaid4:checked~.slaid4,
+    input#slaid5:checked~.slaid5, 
+    input#slaid6:checked~.slaid6,
+    input#slaid7:checked~.slaid7, 
+    input#slaid8:checked~.slaid8, 
+    input#slaid9:checked~.slaid9, 
+    input#slaid10:checked~.slaid10, 
+    input#slaid11:checked~.slaid11,
+    input#slaid12:checked~.slaid12,
+    input#slaid13:checked~.slaid13,
+    input#slaid14:checked~.slaid14,
+    input#slaid15:checked~.slaid15,
+    input#slaid16:checked~.slaid16,
+    input#slaid17:checked~.slaid17,
+    input#slaid18:checked~.slaid18,
+    input#slaid19:checked~.slaid19,
+    input#slaid20:checked~.slaid20,
+    input#slaid21:checked~.slaid21 {display: flex;
+    	justify-content: center;
+}
+
+.events input{order: 2;}
+
+.call span {
+display: flex;
+flex-direction: column;
+align-items: center;
+empty-cells: 
+}
+
+.call img {
+	width: 5%;
+}
+}
+
+
+.container_content {
+  position: fixed;
+}
+
+.content{
+  margin-top: 50px;
+}
